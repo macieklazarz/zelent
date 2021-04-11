@@ -1,0 +1,312 @@
+body
+{
+	margin: 0;
+	background-color: #2F3336;
+	color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+h1.logo /* mowimy jak maja wygldac obiekty klasy logo w naglowku h1 */
+{
+	font-size: 44px;
+	font-weight: 700; /* grubosc czcionki*/
+	color: #ddd;
+	text-align: center; /* wysrodkowanie*/
+	text-transform: uppercase; /* zmiana na wielkie litery*/
+	letter-spacing: 5px; /*odleglosc miedzy literami */
+	margin-top: 50px; /*margines gorny */
+	margin-bottom: 40px; /*margines dolny */
+}
+
+#topnav /*stylizujemy pasek nawigacji */
+{
+	background-color: #1c74b2; /*tlo paska nawigacji */
+	text-align: center; /*rozmieszczenie tego co w pasku nawigacji*/
+}
+
+.menu
+{
+	list-style-type: none;  /*lista bez myslnikow/kropek itp*/
+	margin: 0px;
+	padding: 10px; /*odleglosc tekst a koniec diva*/
+	font-size: 18px;
+	min-height: 38px;
+	line-height: 200%; /*wyrownanie w pionie*/
+}
+
+.menu > li /*stylizujemy li wyłącznie w klasie menu*/
+{
+	display: inline-block; /*zmiana listy z jeden pod drugim na jeden obok drugiego*/
+	padding-left: 20px; /*odległosc z lewej strony obiektu czyli w tym przypadku opcji menu*/
+	padding-right: 20px; /*odległosc z prawej strony obiektu czyli w tym przypadku opcji menu*/
+	border-right: 1px dashed #0a2b42; /*pomiedzy obiektami listy ma byc 1pixelowa przerywana linia o zadanym kolorze*/
+}
+
+.menu > li:first-child /*to dodajemy żeby mieć pionowa linie po lewej stronie pierwszej opcji w menu - first child oznacz ze dotyczy tylko pierwszego obiektu*/
+{
+	border-left: 1px dashed #0a2b42; /*pomiedzy obiektami listy ma byc 1pixelowa przerywana linia o zadanym kolorze*/
+}
+
+.menu a /*ustawiamy jak bedzie wygladal obiekt w znaczniku a klasy menu*/
+{
+	color: #fff; /*ustawiamy bialy kolor czcionki dla obiektow menu*/
+	text-decoration: none; /*usuwamy podkreslenie*/
+}
+
+.menu a:hover /*ustawiamy jak bedzie wygladal obiekt w znaczniku a klasy menu PO NAJECHANIU NA NIEGO*/
+{
+	color: #2F3336;
+
+}
+
+.categories /*ustawiamy jak bedzie wygladal obiekt w znaczniku a klasy CATEGORIES*/
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px; /*szerokosc*/
+	text-align: center; /*wysrodokowanie*/
+	padding: 0;
+}
+
+h1 /*ustawiamy jak bedzie wygladal znacznik h1*/
+{
+	font-size: 44px;
+	font-weight: 400;
+	color: #39a5f1;
+	margin-bottom: 20px;
+}
+
+.author /*ustawiamy jak bedzie wygladal obiekt w znaczniku a klasy author*/
+{
+	display: inline-block; /*ustawiamyzeby obiekty w tej klasie wyswietlaly sie kolo siebie*/
+	margin-top: 10px;
+}
+
+.author a
+{
+		opacity: 0.5;
+}
+
+.author a:hover
+{
+		opacity: 1.0;
+}
+
+figure  /*ustawiamy jak bedzie wygladal figure*/
+{
+	margin: 8px;
+	padding: 0px;
+}
+
+figcaption  /*ustawiamy jak bedzie wygladal figcaption*/
+{
+	margin-top: 8px;
+	padding: 0px;
+}
+
+.entries /*ustawiamy jak bedzie wygladal obiekt w znaczniku a klasy entries*/
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px; /*szerokosc*/
+	text-align: center; /*wysrodokowanie*/
+	padding-top: 10px; /*padding na gorze*/
+	padding-bottom: 80px; /*padding na dole*/
+	margin-top: 40px;
+}
+
+#newest  /*ustawiamy selektor dla id newest zeby ustawic mu inne tlo na calej szerokosci strony*/
+{
+	background-color: #191d21;
+}
+
+.entry
+{
+	background-color: #222930;
+	padding: 20px;
+	text-align: justify;
+	margin-top: 10px;
+	border-radius: 10px; /*zaokraglamy rogi klasy*/
+	
+	
+}
+
+.entryimg
+{
+	display: inline-block;  /*ustawiamy zeby obiekty w tej klasie wyswietlaly sie kolo siebie*/
+	margin-left: 30px;
+	width: 110px;
+}
+
+.entryimg img
+{
+	width: 90px;
+	height: 90px;
+}
+
+.entrytxt
+{
+	display: inline-block;
+	width: 750px;
+	font-size: 15px;
+}
+
+h2
+{
+	font-size: 20px;
+	font-weight: 400;
+	color: #39a5f1;
+}
+
+.contact
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px; /*szerokosc*/
+	text-align: center; /*wysrodokowanie*/
+	padding-bottom: 70px;
+	margin-bottom: 50px;
+}
+
+.bluebutton  /*ustawiamy przycisk do kontaktu na dole strony*/
+{
+	background-color:  #1c74b2;
+	padding: 15px;
+	color: #efefef;
+	font-size: 19px;
+	text-decoration: none;  /*usuwamy podkreslenie hiperłącza*/
+	border-radius: 5px;  /*ustawiamy zaokraglone rogi*/
+	min-width: 300px;
+}
+
+.bluebutton:hoover  /*ustawiamy kolor przycisku po najechaniu*/
+{
+	background-color: #196499;
+
+}
+
+.contact p
+{
+	margin-bottom: 50px;
+	
+}
+
+
+.socials
+{
+	width:100%;
+	text-align: center;
+	background-color: #191d21;
+}
+
+.socialdivs
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fb
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.fb:hover
+{
+	background-color: #4668b3;
+}
+
+.yt
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.yt:hover
+{
+	background-color: #d94348;
+}
+
+.tw
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.tw:hover
+{
+	background-color: #3095d3;
+}
+
+.gplus
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.gplus:hover
+{
+	background-color: #d95333;
+}
+
+.info
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	padding: 20px;
+}
+
+.container
+{
+	margin-left:auto;
+	margin-right:auto;
+	width: 1000px;
+}
+
+.west
+{
+	float: left;
+	width: 750px;
+	padding: 20px;
+	text-align: justify;
+	
+}
+
+.east
+{
+	float:left;
+	width: 170px;
+	padding: 20px;
+}
+
+.west h1
+{
+	font-size: 32px;
+	font-weight: 400px;
+	color:  #39a5f1;
+	margin-bottom: 20px;
+}
+
+.east ul   /*stylizujemy liste po prawej stronie w pliku wpis.html*/
+{
+	padding-left: 20px;
+	
+}
+
+.east ul > li
+{
+	margin-bottom: 5px;
+	list-style-type: none; 
+}
+
+.east img
+{
+	margin-top: 15 px;
+}
