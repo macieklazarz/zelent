@@ -1,2 +1,15 @@
 
-.icon-cog-outline:before { content: '\e800'; } /* '' */
+.icon-mail:before { content: '\e800'; } /* '' */
+.icon-user:before { content: '\e801'; } /* '' */
+.icon-camera:before { content: '\e802'; } /* '' */
+.icon-book-open:before { content: '\e803'; } /* '' */
+.icon-home:before { content: '\e804'; } /* '' */
+.icon-basket:before { content: '\e805'; } /* '' */
+.icon-cog-outline:before { content: '\e806'; } /* '' */
+.icon-cog:before { content: '\e807'; } /* '' */
+.icon-cog-1:before { content: '\e808'; } /* '' */
+.icon-cog-2:before { content: '\e809'; } /* '' */
+.icon-spin3:before { content: '\e832'; } /* '' */
+.icon-mail-alt:before { content: '\f0e0'; } /* '' */
+.icon-male:before { content: '\f183'; } /* '' */
+.icon-user-o:before { content: '\f2c0'; } /* '' */
