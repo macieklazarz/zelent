@@ -364,7 +364,7 @@ p
 {
 	width: 70%;
 	height: fit-content;
-	background-color: red;
+	/*background-color: red;*/
 	background-color: #025B0E;
 	margin-left: auto;
 	margin-right: auto;
@@ -389,7 +389,7 @@ p
 
 .aboutmetext h2
 {
-	font-size: 25px;
+	font-size: 20px;
 	text-align: justify;
 	font-family: 'Prompt', sans-serif;
 	color: white;
@@ -397,11 +397,11 @@ p
 
 .aboutmephoto
 {
-	width: 48%;
+	width: 40%;
 	height: fit-content;
 	/*background-color: grey;*/
 	float:left;
-	margin-top: 8%;
+	margin: 2%;
 
 }
 
@@ -434,23 +434,35 @@ p
 
 #container
 {
-	background-color: black;
-	width: 300px;
+	background-color: #025B0E;
+	width: 50%;
 	padding: 50px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 100px;
-	-webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	border-radius: 20px;
+	/*-webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
 	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
-	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);*/
 }
 
-input[type=text],
-input[type=password]
+#containerleft
 {
-	width: 300px;
+	float: left;
+	width: 60%;
+	/*background-color: blue;*/
+}
+
+
+
+
+input[type=email],
+input[type=password],
+textarea
+{
+	width: 100%;
 	background-color: #efefef;
-	color: #666;
+	color: #e9f3e9;
 	border: 2px solid #ddd;
 	border-radius: 5px;
 	font-size: 20px;
@@ -458,14 +470,16 @@ input[type=password]
 	box-sizing: border-box;
 	outline: none;
 	margin-top: 10px;
+	font-family: 'Krona One', sans-serif;
 }
 
-input[type=text]:focus,
-input[type=password]:focus
+input[type=email]:focus,
+input[type=password]:focus,
+textarea
 {
-	-webkit-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	/*-webkit-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
 	-moz-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
-	box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);*/
 	border: 2px solid #a5cda5;
 	background-color: #e9f3e9;
 	color: #428c42;
@@ -473,7 +487,7 @@ input[type=password]:focus
 
 input[type=submit]
 {
-	width: 300px;
+	width: 100%;
 	background-color: #36b03c;
 	font-size:20px;
 	color: white;
@@ -484,6 +498,7 @@ input[type=submit]
 	cursor: pointer;
 	letter-spacing: 2px;
 	outline: none;
+	font-family: 'Krona One', sans-serif;
 }
 
 input[type=submit]:focus
@@ -532,4 +547,27 @@ input:-ms-input-placeholder
 input:focus:-ms-input-placeholder
 {
     color: #428C42;
+}
+
+#containerright
+{
+	float: left;
+	width: 40%;
+	/*background-color: red;*/
+	
+}
+
+
+#contacttext
+{
+	font-family: 'Krona One', sans-serif;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	margin-top: 5%;
+	
+}
+
+#contactfontello
+{
 }
