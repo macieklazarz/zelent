@@ -575,7 +575,7 @@ a.tilelink
 		position: relative;
 		width: 40px;
 		height: 40px;
-		background: url(images/Menu.png);
+		background: url(images/menu.png);
 		background-size: 30px;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -659,8 +659,24 @@ a.tilelink
 @media (max-width: 480px)
 {
 	.stronaglowna .content h2
-	{	
+	{
 		font-size: 2.2em;
 		color: #fff;
 	}
-}	
+	header .logo
+	{
+		font-size: 1.2em;
+	}
+	.oferta .content .box
+    {
+    	width: 100%;
+    }
+    .oferta .content .box .imgBx
+    {
+        width: 100%;
+    }
+	.oferta .content .box {
+    margin: 5px;
+    padding: 6px;
+	}
+}

@@ -27,7 +27,7 @@ body
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/*background: url(images/mbg2.jpg);*/
+	/*background: url(static/new/images/mbg2.jpg);*/
 	background-color: #318C2A;
 	background-size: cover;
 }
@@ -318,7 +318,7 @@ section
 
 .oferta
 {
-	/*background: url(images/bg2.jpg);*/
+	/*background: url(static/new/images/bg2.jpg);*/
 	background-color: #318C2A;
 	background-size: cover;
 }
@@ -390,7 +390,7 @@ section
 }
 .contact
 {
-	/*background: url(images/bg3.jpg);*/
+	/*background: url(static/new/images/bg3.jpg);*/
 	background-size: cover;
 	
 }
@@ -575,7 +575,7 @@ a.tilelink
 		position: relative;
 		width: 40px;
 		height: 40px;
-		background: url(images/Menu.png);
+		background: url(static/new/images/Menu.png);
 		background-size: 30px;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -583,7 +583,7 @@ a.tilelink
 	}
 	.MenuToggle active
 	{
-		background: url(images/close.png);
+		background: url(static/new/images/close.png);
 		background-size: 25px;
 		background-repeat: no-repeat;
 		background-position: center;
